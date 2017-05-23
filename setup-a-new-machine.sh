@@ -100,8 +100,7 @@ if ! xcode-select --print-path &> /dev/null; then
     # Prompt user to agree to the terms of the Xcode license
     # https://github.com/alrra/dotfiles/issues/10
 
-    sudo xcodebuild -license
-    print_result $? 'Agree with the XCode Command Line Tools licence'
+c
 
 fi
 ###
